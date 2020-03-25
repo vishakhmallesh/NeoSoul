@@ -1,0 +1,184 @@
+html, body {
+  height: 100%;
+  margin: 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* The sidebar menu */
+.sidebar {
+  height: 100%; /* 100% Full-height */
+  width: 0; /* 0 width - change this with JavaScript */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Stay on top */
+  top: 0;
+  left: 30%;
+  background-color: #fff;
+  overflow-x: hidden; /* Disable horizontal scroll */
+  padding-top: 10px;
+  transition: 0; /* 0.5 second transition effect to slide in the sidebar */
+  color: #48453E;
+  text-align: center;
+}
+
+/* The sidebar links */
+.sidebar-text {
+  padding: 8px 8px 8px 8px;
+  text-decoration: none;
+  font-family: 'Poiret One', cursive;
+  font-weight: bold;
+  font-size: 150%;
+  color: #48453E;
+  display: block;
+  transition: 0.3s;
+  text-align: center;
+}
+
+/* When you mouse over the navigation links, change their color */
+.sidebar-text:hover {
+  color: #A98F53;
+  text-decoration: none;
+}
+
+
+
+/* Position and style the close button (top right corner) */
+.sidebar .closebtn {
+  text-align: center;
+  font-size: 250%;
+  margin-bottom: 40px;
+  text-decoration: none;
+  display: block;
+  color: #48453E;
+}
+.closebtn:hover {
+  color: #A98F53;
+  text-decoration: none;
+}
+
+/* The button used to open the sidebar */
+.openbtn {
+  font-size: 200%;
+  font-weight: bolder;
+  display: inline-block;
+  cursor: pointer;
+  background-color: #FAF7F0;
+  color: #48453E;
+  padding: 10px 5px;
+  border: none;
+}
+
+.openbtn:hover {
+  font-size: 200%;
+  font-weight: bolder;
+  cursor: pointer;
+  background-color: #FAF7F0;
+  color: #A98F53;
+  text-decoration: none;
+}
+
+.sidebar-logo{
+  height:125px;
+  width: 125px;
+  margin: 8px 8px 40px 8px;
+}
+
+i{
+  margin-top: 40px;
+  color: #48453E;
+  padding: 10px;
+  font-size: 110%;
+}
+
+i:hover{
+  color: #A98F53;
+}
+
+
+
+
+
+
+
+
+
+
+
+.full-height{
+  height:100%;
+  width: 100%;
+  margin: 0;
+}
+
+.full-height-about {
+  height: 100%;
+  background-color: #48453E;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.full-height-title {
+  height: 100%;
+  background-color: #FAF7F0;
+  display: flex;
+}
+
+.aboutCompany{
+  color: #fff;
+  font-family: 'Poiret One', cursive;
+  font-size: 200%;
+  width: 80%;
+  line-height: 1.5;
+  font-weight: 500;
+}
+
+.hamburger{
+
+}
+
+.logo-img{
+  height: 150px;
+  width: 150px;
+  display: inline-block;
+  /* position: absolute;
+
+  top: 40%;
+  bottom: 50%;
+  left: 50%;
+  right: 50%; */
+}
+
+.title{
+
+  display: inline-block;
+  /* position: absolute;
+  top: 43%;
+  bottom: 50%;
+  left: 50%;
+  right: 50%;
+  left:220px; */
+  font-family: 'Poiret One', cursive;
+  color: #48453E;
+  font-weight: bold;
+  font-size: 85px;
+  margin-left: 10px;
+}
+
+.title-container{
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+}
